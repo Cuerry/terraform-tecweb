@@ -8,22 +8,12 @@ variable "project_number" {
   type        = number
 }
 
-variable "region" {
-  description = "Deploy region"
-  type        = string
-}
-
-variable "db_password" {
-  description = "SQL DB Password"
-  type        = string
-}
-
 variable "github_key" {
-  description = "Github Key"
+  description = "GitHub Key"
   type        = string
 }
 
 variable "github_app_id" {
-  description = "Github APP ID"
+  description = "GitHub APP ID"
   type        = number
 }
